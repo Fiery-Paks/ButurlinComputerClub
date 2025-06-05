@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\formsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\formsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\formsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\formsessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\models\\computers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:models\\computers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\formparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\formparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\autorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\autorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\formparent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\formparent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\formparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\formparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\autorization.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\autorization.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|d:\\github\\buturlincomputerclub\\windowsformsappcomputerclub\\forms\\autorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FD16FB-AC5E-4B25-8BB6-0F3D3D35BEF7}|WindowsFormsAppComputerClub.csproj|solutionrelative:forms\\autorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Computers.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Models\\Computers.cs",
+              "RelativeDocumentMoniker": "Models\\Computers.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Models\\Computers.cs",
+              "RelativeToolTip": "Models\\Computers.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:14:23.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormSessions.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormSessions.cs",
+              "RelativeDocumentMoniker": "Forms\\FormSessions.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormSessions.cs",
+              "RelativeToolTip": "Forms\\FormSessions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:56:52.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormSessions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormSessions.cs",
+              "RelativeDocumentMoniker": "Forms\\FormSessions.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormSessions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Forms\\FormSessions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:56:51.066Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:50.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Autorization.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\Autorization.cs",
+              "RelativeDocumentMoniker": "Forms\\Autorization.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\Autorization.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Forms\\Autorization.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:36.734Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormParent.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormParent.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\FormParent.Designer.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormParent.Designer.cs",
+              "RelativeToolTip": "Forms\\FormParent.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:29.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormParent.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormParent.cs",
+              "RelativeDocumentMoniker": "Forms\\FormParent.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormParent.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Forms\\FormParent.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:15.937Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Autorization.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\Autorization.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\Autorization.Designer.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\Autorization.Designer.cs",
+              "RelativeToolTip": "Forms\\Autorization.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:39.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Autorization.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\Autorization.cs",
+              "RelativeDocumentMoniker": "Forms\\Autorization.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\Autorization.cs",
+              "RelativeToolTip": "Forms\\Autorization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:37.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormParent.cs",
+              "DocumentMoniker": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormParent.cs",
+              "RelativeDocumentMoniker": "Forms\\FormParent.cs",
+              "ToolTip": "D:\\GitHub\\ButurlinComputerClub\\WindowsFormsAppComputerClub\\Forms\\FormParent.cs",
+              "RelativeToolTip": "Forms\\FormParent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:55:17.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
