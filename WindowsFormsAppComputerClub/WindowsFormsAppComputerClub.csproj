@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -61,17 +61,41 @@
     <Compile Include="Forms\Autorization.Designer.cs">
       <DependentUpon>Autorization.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormParent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormParent.Designer.cs">
       <DependentUpon>FormParent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormSessions.cs">
+    <Compile Include="Forms\FormAddUpdateSessions.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormSessions.Designer.cs">
-      <DependentUpon>FormSessions.cs</DependentUpon>
+    <Compile Include="Forms\FormAddUpdateSessions.Designer.cs">
+      <DependentUpon>FormAddUpdateSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormShowSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormShowSessions.Designer.cs">
+      <DependentUpon>FormShowSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUser.Designer.cs">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUserSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUserSessions.Designer.cs">
+      <DependentUpon>FormUserSessions.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Computers.cs" />
     <Compile Include="Models\Model1.cs" />
@@ -83,11 +107,23 @@
     <EmbeddedResource Include="Forms\Autorization.resx">
       <DependentUpon>Autorization.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormParent.resx">
       <DependentUpon>FormParent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormSessions.resx">
-      <DependentUpon>FormSessions.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormAddUpdateSessions.resx">
+      <DependentUpon>FormAddUpdateSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormShowSessions.resx">
+      <DependentUpon>FormShowSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUserSessions.resx">
+      <DependentUpon>FormUserSessions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

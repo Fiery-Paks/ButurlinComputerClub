@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsAppComputerClub.Forms
 {
-    partial class FormSessions
+    partial class FormAddUpdateSessions
     {
         /// <summary>
         /// Required designer variable.
@@ -36,13 +36,13 @@
             System.Windows.Forms.Label label1;
             this.sessionsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.computer_idComboBox = new System.Windows.Forms.ComboBox();
+            this.computersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.end_timeLabelData = new System.Windows.Forms.Label();
-            this.start_timeLabelData = new System.Windows.Forms.Label();
             this.total_costTextBox = new System.Windows.Forms.TextBox();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonCanceled = new System.Windows.Forms.Button();
-            this.computersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.comboBoxTime = new System.Windows.Forms.ComboBox();
+            this.start_timeLabelData = new System.Windows.Forms.Label();
             computer_idLabel = new System.Windows.Forms.Label();
             end_timeLabel = new System.Windows.Forms.Label();
             start_timeLabel = new System.Windows.Forms.Label();
@@ -56,14 +56,14 @@
             // 
             this.panel1.Size = new System.Drawing.Size(975, 5);
             // 
+            // buttonBack
+            // 
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // labelName
             // 
             this.labelName.Size = new System.Drawing.Size(752, 33);
             this.labelName.Text = "Добавление сессии";
-            // 
-            // sessionsBindingSource
-            // 
-            this.sessionsBindingSource.DataSource = typeof(WindowsFormsAppComputerClub.Models.Sessions);
             // 
             // computer_idLabel
             // 
@@ -77,8 +77,61 @@
             computer_idLabel.TabIndex = 17;
             computer_idLabel.Text = "computer id:";
             // 
+            // end_timeLabel
+            // 
+            end_timeLabel.AutoSize = true;
+            end_timeLabel.BackColor = System.Drawing.Color.Transparent;
+            end_timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            end_timeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            end_timeLabel.Location = new System.Drawing.Point(61, 303);
+            end_timeLabel.Name = "end_timeLabel";
+            end_timeLabel.Size = new System.Drawing.Size(109, 25);
+            end_timeLabel.TabIndex = 19;
+            end_timeLabel.Text = "end time:";
+            // 
+            // start_timeLabel
+            // 
+            start_timeLabel.AutoSize = true;
+            start_timeLabel.BackColor = System.Drawing.Color.Transparent;
+            start_timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            start_timeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            start_timeLabel.Location = new System.Drawing.Point(61, 259);
+            start_timeLabel.Name = "start_timeLabel";
+            start_timeLabel.Size = new System.Drawing.Size(117, 25);
+            start_timeLabel.TabIndex = 21;
+            start_timeLabel.Text = "start time:";
+            // 
+            // total_costLabel
+            // 
+            total_costLabel.AutoSize = true;
+            total_costLabel.BackColor = System.Drawing.Color.Transparent;
+            total_costLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            total_costLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            total_costLabel.Location = new System.Drawing.Point(61, 345);
+            total_costLabel.Name = "total_costLabel";
+            total_costLabel.Size = new System.Drawing.Size(116, 25);
+            total_costLabel.TabIndex = 25;
+            total_costLabel.Text = "total cost:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = System.Drawing.Color.Transparent;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            label1.Location = new System.Drawing.Point(58, 207);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(148, 25);
+            label1.TabIndex = 29;
+            label1.Text = "time interval:";
+            // 
+            // sessionsBindingSource
+            // 
+            this.sessionsBindingSource.DataSource = typeof(WindowsFormsAppComputerClub.Models.Sessions);
+            // 
             // computer_idComboBox
             // 
+            this.computer_idComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.computer_idComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sessionsBindingSource, "computer_id", true));
             this.computer_idComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.sessionsBindingSource, "computer_id", true));
             this.computer_idComboBox.DataSource = this.computersBindingSource;
@@ -93,17 +146,9 @@
             this.computer_idComboBox.ValueMember = "id";
             this.computer_idComboBox.SelectedIndexChanged += new System.EventHandler(this.TimeCostCountingChanged);
             // 
-            // end_timeLabel
+            // computersBindingSource
             // 
-            end_timeLabel.AutoSize = true;
-            end_timeLabel.BackColor = System.Drawing.Color.Transparent;
-            end_timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            end_timeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            end_timeLabel.Location = new System.Drawing.Point(56, 248);
-            end_timeLabel.Name = "end_timeLabel";
-            end_timeLabel.Size = new System.Drawing.Size(109, 25);
-            end_timeLabel.TabIndex = 19;
-            end_timeLabel.Text = "end time:";
+            this.computersBindingSource.DataSource = typeof(WindowsFormsAppComputerClub.Models.Computers);
             // 
             // end_timeLabelData
             // 
@@ -111,50 +156,15 @@
             this.end_timeLabelData.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sessionsBindingSource, "end_time", true));
             this.end_timeLabelData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.end_timeLabelData.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.end_timeLabelData.Location = new System.Drawing.Point(239, 251);
+            this.end_timeLabelData.Location = new System.Drawing.Point(244, 306);
             this.end_timeLabelData.Name = "end_timeLabelData";
             this.end_timeLabelData.Size = new System.Drawing.Size(249, 23);
             this.end_timeLabelData.TabIndex = 20;
             this.end_timeLabelData.Text = "label1";
             // 
-            // start_timeLabel
-            // 
-            start_timeLabel.AutoSize = true;
-            start_timeLabel.BackColor = System.Drawing.Color.Transparent;
-            start_timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            start_timeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            start_timeLabel.Location = new System.Drawing.Point(56, 296);
-            start_timeLabel.Name = "start_timeLabel";
-            start_timeLabel.Size = new System.Drawing.Size(117, 25);
-            start_timeLabel.TabIndex = 21;
-            start_timeLabel.Text = "start time:";
-            // 
-            // start_timeLabelData
-            // 
-            this.start_timeLabelData.BackColor = System.Drawing.Color.Transparent;
-            this.start_timeLabelData.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sessionsBindingSource, "start_time", true));
-            this.start_timeLabelData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.start_timeLabelData.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.start_timeLabelData.Location = new System.Drawing.Point(239, 299);
-            this.start_timeLabelData.Name = "start_timeLabelData";
-            this.start_timeLabelData.Size = new System.Drawing.Size(249, 23);
-            this.start_timeLabelData.TabIndex = 22;
-            this.start_timeLabelData.Text = "label1";
-            // 
-            // total_costLabel
-            // 
-            total_costLabel.AutoSize = true;
-            total_costLabel.BackColor = System.Drawing.Color.Transparent;
-            total_costLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            total_costLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            total_costLabel.Location = new System.Drawing.Point(61, 345);
-            total_costLabel.Name = "total_costLabel";
-            total_costLabel.Size = new System.Drawing.Size(116, 25);
-            total_costLabel.TabIndex = 25;
-            total_costLabel.Text = "total cost:";
-            // 
             // total_costTextBox
             // 
+            this.total_costTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.total_costTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sessionsBindingSource, "total_cost", true));
             this.total_costTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.total_costTextBox.Location = new System.Drawing.Point(244, 345);
@@ -186,25 +196,11 @@
             this.buttonCanceled.Text = "Отменить";
             this.buttonCanceled.UseVisualStyleBackColor = false;
             this.buttonCanceled.Visible = false;
-            // 
-            // computersBindingSource
-            // 
-            this.computersBindingSource.DataSource = typeof(WindowsFormsAppComputerClub.Models.Computers);
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = System.Drawing.Color.Transparent;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            label1.Location = new System.Drawing.Point(58, 207);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(148, 25);
-            label1.TabIndex = 29;
-            label1.Text = "time interval:";
+            this.buttonCanceled.Click += new System.EventHandler(this.buttonCanceled_Click);
             // 
             // comboBoxTime
             // 
+            this.comboBoxTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.comboBoxTime.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sessionsBindingSource, "computer_id", true));
             this.comboBoxTime.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.sessionsBindingSource, "computer_id", true));
             this.comboBoxTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -224,7 +220,19 @@
             this.comboBoxTime.TabIndex = 30;
             this.comboBoxTime.SelectedIndexChanged += new System.EventHandler(this.TimeCostCountingChanged);
             // 
-            // FormSessions
+            // start_timeLabelData
+            // 
+            this.start_timeLabelData.BackColor = System.Drawing.Color.Transparent;
+            this.start_timeLabelData.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sessionsBindingSource, "start_time", true));
+            this.start_timeLabelData.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.start_timeLabelData.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.start_timeLabelData.Location = new System.Drawing.Point(244, 262);
+            this.start_timeLabelData.Name = "start_timeLabelData";
+            this.start_timeLabelData.Size = new System.Drawing.Size(249, 23);
+            this.start_timeLabelData.TabIndex = 22;
+            this.start_timeLabelData.Text = "label1";
+            // 
+            // FormAddSessions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -241,12 +249,9 @@
             this.Controls.Add(this.start_timeLabelData);
             this.Controls.Add(total_costLabel);
             this.Controls.Add(this.total_costTextBox);
-            this.Name = "FormSessions";
+            this.Name = "FormAddSessions";
             this.Text = "FormSessions";
             this.Load += new System.EventHandler(this.FormSessions_Load);
-            this.Controls.SetChildIndex(this.panel1, 0);
-            this.Controls.SetChildIndex(this.buttonBack, 0);
-            this.Controls.SetChildIndex(this.labelName, 0);
             this.Controls.SetChildIndex(this.total_costTextBox, 0);
             this.Controls.SetChildIndex(total_costLabel, 0);
             this.Controls.SetChildIndex(this.start_timeLabelData, 0);
@@ -259,6 +264,9 @@
             this.Controls.SetChildIndex(this.buttonCanceled, 0);
             this.Controls.SetChildIndex(this.comboBoxTime, 0);
             this.Controls.SetChildIndex(label1, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.buttonBack, 0);
+            this.Controls.SetChildIndex(this.labelName, 0);
             ((System.ComponentModel.ISupportInitialize)(this.sessionsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.computersBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -271,11 +279,11 @@
         private System.Windows.Forms.BindingSource sessionsBindingSource;
         private System.Windows.Forms.ComboBox computer_idComboBox;
         private System.Windows.Forms.Label end_timeLabelData;
-        private System.Windows.Forms.Label start_timeLabelData;
         private System.Windows.Forms.TextBox total_costTextBox;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonCanceled;
         private System.Windows.Forms.BindingSource computersBindingSource;
         private System.Windows.Forms.ComboBox comboBoxTime;
+        private System.Windows.Forms.Label start_timeLabelData;
     }
 }
